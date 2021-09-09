@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+/* ---------Columns-------- */
+[class^="colonna-"] {
+    float: left;
+}
+
+.column-1_6 {
+    width: calc(100% / 6);
+}
+
+.column-2_6 {
+    width: calc(100% / 6 * 2);
+}
+
+.column-4_6 {
+    width: calc(100% / 6 * 4);
+}
+
+/* Background */
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-hero {
+
+}
+
+/* -----------Wave---------- */
+
+
+
+/* ----------Buttons---------- */
+/* Buttons global styles */
+.btn {
+
+}
+
+/* Smaller buttons */
+.btn-small {
+
+}
+
+/* Dark buttons */
+.btn-dark {
+
+}
+
+/* Light buttons */
+.btn-light {
+
+}
