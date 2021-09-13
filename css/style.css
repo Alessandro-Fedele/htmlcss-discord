@@ -39,7 +39,6 @@ a:hover {
     text-decoration: underline;
 }
 
-
 /* ---------Columns-------- */
 [class^="column-"] {
     float: left;
@@ -56,7 +55,6 @@ a:hover {
 .column-4_6 {
     width: calc(100% / 6 * 4);
 }
-
 
 /* Background */
 .bg-gray {
@@ -99,7 +97,6 @@ a:hover {
     color: rgb(22, 22, 22);
 }
 
-
 /* Text Color */
 .text-white {
     color: white;
@@ -124,7 +121,6 @@ h1 {
     font-size: 40px;
     padding-bottom: 25px;
 }
-
 
 .large-p {
     width: 53%;
@@ -152,7 +148,7 @@ h3 {
 
 .padding-left {
     padding-left: 30px;
-    
+
 }
 
 .small-p {
@@ -169,7 +165,7 @@ h3 {
     top: 15px;
 }
 
-#pink-button {
+#purple-button {
     position: relative;
     top: 40px;
     background-color: rgb(161, 171, 255);
@@ -179,4 +175,62 @@ h3 {
 .fsection-p {
     display: inline-block;
     width: 80%;
+}
+
+.purple-text {
+    color: rgb(161, 171, 255);
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+}
+
+.language {
+    padding-top: 25px;
+}
+
+#italiano {
+    vertical-align: top;
+    width: 10%;
+}
+
+/* Social Button */
+.fab {
+    color: white;
+    padding-top: 20px;
+    font-size: 20px;
+    width: 40px;
+}
+
+/* Footer List */
+h4 {
+    color: rgb(161, 171, 255);
+}
+
+.footer-li {
+    list-style-type: none;
+    color: white;
+    text-align: left;
+    padding-top: 5px;
+}
+
+.footer-li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.close {
+    border-bottom: .5px solid rgba(161, 170, 255, 0.712);
+    padding-bottom: 30px;
+}
+
+.sign-button {
+    background-color: rgb(161, 171, 255);
+    color: white;
+    float: right;
+    margin-top: 15px;
 }
